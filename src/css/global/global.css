@@ -1,0 +1,17 @@
+@import url(reset.css);
+@import url(variables.css);
+
+body {
+    font-family: var(--spartan);
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: 82.5%;
+    margin: auto;
+}

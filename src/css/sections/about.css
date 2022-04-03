@@ -1,0 +1,25 @@
+.about {
+    display: flex;
+    flex-direction: column;
+    padding: 0 1rem 1rem 1rem;
+    gap: 1.5rem;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1.5rem;    
+}
+
+.about__title {
+    text-align: center;
+    font-size: 1.75rem;
+    color: var(--very-dark-magenta);
+    font-weight: var(--title-weight);
+}
+
+.about__text {
+    text-align: center;
+    line-height: 1.5;
+    font-weight: var(--subtitle-weight);
+    font-size: var(--text-size);
+    color: var(--dark-grayish-magenta);
+}

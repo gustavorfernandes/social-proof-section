@@ -1,0 +1,25 @@
+.rating-box {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--light-grayish-magenta);
+    padding: 0 1rem 1rem 1rem;
+    gap: .5rem;
+    box-sizing: border-box;
+    align-items: center;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+}
+
+.rating-box__icons {
+    font-size: 2.5rem;
+}
+
+.rating-box__icons:before {
+    content: url(../../images/icon-star.svg) " " url(../../images/icon-star.svg) " " url(../../images/icon-star.svg) " " url(../../images/icon-star.svg) " " url(../../images/icon-star.svg);
+}
+
+.rating-box__text {
+    font-size: var(--text-size);
+    color: var(--very-dark-magenta);
+    font-weight: var(--title-weight);
+}
