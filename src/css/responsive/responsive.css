@@ -1,0 +1,96 @@
+@media screen and (min-width: 1440px) {
+    body {
+        width: 100vw;        
+    }
+
+    .container {
+        max-width: 1300px;
+        height: unset;
+        box-sizing: border-box;
+        padding: 5vw ;
+        display: grid;
+        grid-template-columns: auto 1fr auto;
+        grid-template-rows: auto auto auto auto;
+    }
+
+    .about {
+        grid-row: span 3;
+        margin-bottom: 0;
+        align-self: flex-start;
+        width: 60%;
+        gap: 1rem;
+        padding: 0;
+    }
+
+    .about__title {
+        text-align: left;
+        padding-right: 3rem;
+        box-sizing: border-box;
+        font-size: 3rem;
+        padding: 0;
+    }
+
+    .about__text {
+        text-align: left;
+        font-size: .9rem;
+        margin-bottom: 6.5rem;
+        box-sizing: border-box;
+    }
+
+    .rating {
+        grid-column: 3;
+        grid-row: span 3;
+        margin-top: 1rem;      
+    }
+
+    .rating-box {
+        flex-direction: row;
+        align-items: center;
+        gap: 1.5rem;
+        border-radius: 8px;
+    }
+
+    .rating-box__text {
+        padding-top:.75rem;
+    }
+
+    .rating-box--top {
+        padding: 0 5rem .5rem 2rem;        
+        margin: 0 6rem 1rem -6rem;
+    }
+
+    .rating-box--center {
+        padding: 0 5rem .5rem 2rem;        
+        margin: 0 2.5rem 1rem -2.5rem;
+    }
+
+    .rating-box--bottom {
+        padding: 0 0 .5rem 2rem;
+        margin-left: 1rem;       
+    }
+
+    .depoiments {
+        grid-column: span 3;
+        grid-row: 4;
+        display: flex;
+        gap: 2rem;
+        width: 100%;
+    }
+
+    .testimonial-card--left {
+        margin-top: -2rem;
+        margin-bottom: 2rem;
+        box-sizing: border-box;
+    }
+
+    .testimonial-card--center {
+        margin-top: -1rem;
+        margin-bottom: 1rem;
+        box-sizing: border-box;
+    }
+
+    .testimonial-card--right {
+        margin-bottom: 0;
+        box-sizing: border-box;
+    }
+}

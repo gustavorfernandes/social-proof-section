@@ -4,14 +4,17 @@
 body {
     font-family: var(--spartan);
     display: flex;
-    width: 100vw;
+    width: 90vw;
     height: 100vh;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
 }
 
 .container {
     display: flex;
+    max-width: 337.50px;
     flex-direction: column;
-    width: 90%;
+    width: 100%;
     height: 82.5%;
-    margin: auto;
 }
